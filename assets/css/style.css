@@ -236,3 +236,93 @@ button:hover {
     margin-top: 25px;
 
 }
+
+@media screen and (max-width: 980px){
+    #indextextarea {
+        width: 562px;
+        margin-left: 60px;
+        height: 450px;
+     }
+
+     #second {
+         height: 1000px;
+     }
+}
+
+
+@media screen and (max-width: 768px){
+    #indextextarea {
+        width: 716px;
+        margin-left: 10px;
+    }
+
+    #second {
+        height: 800px;
+    }
+
+    #namebox {
+        margin-left: 10px;
+
+    }
+
+    #toplist {
+        margin-right: 10px;
+    }
+
+    #hockeyplayer {
+        height: 250px;
+        width: 250px;
+    }
+    
+}
+
+@media screen and (max-width: 640px){
+
+    body {
+        margin: 0px;
+    }
+
+
+    #namebox {
+        width: 100%;
+        margin-top: -10px;
+        margin-left: 0px;
+        text-align: center;
+        clear: both;
+        float: none;
+        padding-top: 10px;
+        padding-left: 60px;
+       
+        
+    }
+
+    #toplist {
+        margin-bottom: 10px;
+        text-align: center;
+        float: none;
+        margin-left: -10px;
+        margin-right: -10px;
+        margin-top: 10px;
+    }
+
+    #indextextarea {
+        width: 95%;
+        margin-left: 10px;
+        margin-right: 10px;
+        
+    }
+
+    #indextextarea {
+        height: 800px;
+    }
+
+    #hockeyplayer {
+        width: 500px;
+        height: 400px;
+
+    }
+     
+    #second {
+        height: 1100px;
+    }
+}
